@@ -60,7 +60,7 @@
     <script src="https://cdn.jsdelivr.net/npm/showdown@latest/dist/showdown.min.js"></script>
     <script>
       var sd = new showdown.Converter()
-      $.get('readme.md', function (res) {
+      $.get('./README.md', function (res) {
         $('#content').html(sd.makeHtml(res))
       })
     </script>
