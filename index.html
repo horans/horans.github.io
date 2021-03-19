@@ -14,25 +14,24 @@
     />
     <style>
       body {
-        background:
-          linear-gradient(
-            to top left,
-            hsla(109.71, 42.68%, 67.84%, 0.4) 0%,
-            hsla(117, 45.98%, 65.88%, 0.404) 14.7%,
-            hsla(123.96, 49.73%, 64.12%, 0.407) 26.5%,
-            hsla(131.18, 53.13%, 62.35%, 0.411) 35.9%,
-            hsla(138.05, 56.22%, 60.59%, 0.414) 43.3%,
-            hsla(144.48, 59.81%, 59.02%, 0.417) 49%,
-            hsla(150.88, 62.39%, 57.25%, 0.42) 53.5%,
-            hsla(157.3, 65.49%, 55.69%, 0.424) 57.1%,
-            hsla(163.33, 69.23%, 54.12%, 0.427) 60.1%,
-            hsla(169.66, 71.9%, 52.55%, 0.43) 63.1%,
-            hsla(175.85, 75.2%, 50.98%, 0.433) 66.3%,
-            hsla(182.74, 78.49%, 49.22%, 0.436) 70.2%,
-            hsla(189.14, 81.07%, 47.65%, 0.44) 75.1%,
-            hsla(196.06, 84.62%, 45.88%, 0.443) 81.5%,
-            hsla(202.73, 88.39%, 43.92%, 0.446) 89.6%,
-            hsla(210.15, 91.63%, 42.16%, 0.45) 100%
+        background: linear-gradient(
+          to top left,
+          hsla(109.71, 42.68%, 67.84%, 0.4) 0%,
+          hsla(117, 45.98%, 65.88%, 0.404) 14.7%,
+          hsla(123.96, 49.73%, 64.12%, 0.407) 26.5%,
+          hsla(131.18, 53.13%, 62.35%, 0.411) 35.9%,
+          hsla(138.05, 56.22%, 60.59%, 0.414) 43.3%,
+          hsla(144.48, 59.81%, 59.02%, 0.417) 49%,
+          hsla(150.88, 62.39%, 57.25%, 0.42) 53.5%,
+          hsla(157.3, 65.49%, 55.69%, 0.424) 57.1%,
+          hsla(163.33, 69.23%, 54.12%, 0.427) 60.1%,
+          hsla(169.66, 71.9%, 52.55%, 0.43) 63.1%,
+          hsla(175.85, 75.2%, 50.98%, 0.433) 66.3%,
+          hsla(182.74, 78.49%, 49.22%, 0.436) 70.2%,
+          hsla(189.14, 81.07%, 47.65%, 0.44) 75.1%,
+          hsla(196.06, 84.62%, 45.88%, 0.443) 81.5%,
+          hsla(202.73, 88.39%, 43.92%, 0.446) 89.6%,
+          hsla(210.15, 91.63%, 42.16%, 0.45) 100%
         );
       }
     </style>
@@ -40,7 +39,7 @@
   </head>
   <body>
     <main class="vh-100">
-      <div class="container py-5">
+      <div class="container-lg py-5">
         <div id="content"></div>
       </div>
     </main>
@@ -60,8 +59,18 @@
     <script src="https://cdn.jsdelivr.net/npm/showdown@latest/dist/showdown.min.js"></script>
     <script>
       var sd = new showdown.Converter()
+      sd.setOption('tables', true)
       $.get('./README.md', function (res) {
-        $('#content').html(sd.makeHtml(res))
+        $('#content')
+          .html(sd.makeHtml(res))
+          .find('table')
+          .addClass('table table-borderless table-hover my-5')
+        $('#content')
+          .find('h1, p')
+          .addClass('text-center')
+        $('#content')
+          .find('p a')
+          .addClass('btn btn-light')
       })
     </script>
   </body>
