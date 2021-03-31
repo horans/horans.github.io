@@ -1,4 +1,4 @@
-# Some stars you might be interested in the endless universe
+# Matters you might be interested in the endless universe
 
 | Demo                                                                                               |                                                                                 Update |
 | :------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------: |
@@ -11,4 +11,4 @@
 | [Vue noUiSlider](https://horans.github.io/vue-nouislider/demo/basic.html)                          |             ![update](https://img.shields.io/github/last-commit/horans/vue-nouislider) |
 | [YouTube Revenue Calculator](https://horans.github.io/youtube-revenue-calculator/iframe.html)      | ![update](https://img.shields.io/github/last-commit/horans/youtube-revenue-calculator) |
 
-<https://github.com/horans> | <http://horan.cc/>
+<https://github.com/horans>
