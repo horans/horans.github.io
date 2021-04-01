@@ -6,6 +6,7 @@
 | [Game: Feature Board](https://horans.github.io/game-feature-board/iframe.html)                     |         ![update](https://img.shields.io/github/last-commit/horans/game-feature-board) |
 | [Game: Select Theme](https://horans.github.io/game-select-theme/iframe.html)                       |          ![update](https://img.shields.io/github/last-commit/horans/game-select-theme) |
 | [GEOIP Detect and Redirect](https://horans.github.io/geoip-detect-and-redirect/demo.html)          |  ![update](https://img.shields.io/github/last-commit/horans/geoip-detect-and-redirect) |
+| [Network Status Detection](https://horans.github.io/network-status/)                               |             ![update](https://img.shields.io/github/last-commit/horans/network-status) |
 | [Pardot Form AJAX Handler](https://horans.github.io/pardot-form-ajax-handler/demo/demo-basic.html) |   ![update](https://img.shields.io/github/last-commit/horans/pardot-form-ajax-handler) |
 | [Random String Generator](https://horans.github.io/random/)                                        |                     ![update](https://img.shields.io/github/last-commit/horans/random) |
 | [Vue noUiSlider](https://horans.github.io/vue-nouislider/demo/basic.html)                          |             ![update](https://img.shields.io/github/last-commit/horans/vue-nouislider) |
