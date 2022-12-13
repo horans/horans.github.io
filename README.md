@@ -11,5 +11,6 @@
 | [Random String Generator](https://horans.github.io/random/)                                        |                     ![update](https://img.shields.io/github/last-commit/horans/random) |
 | [Vue noUiSlider](https://horans.github.io/vue-nouislider/demo/basic.html)                          |             ![update](https://img.shields.io/github/last-commit/horans/vue-nouislider) |
 | [YouTube Revenue Calculator](https://horans.github.io/youtube-revenue-calculator/iframe.html)      | ![update](https://img.shields.io/github/last-commit/horans/youtube-revenue-calculator) |
+| [Locale Tool for JSON](https://horans.github.io/json-locale-tool/)                                 |           ![update](https://img.shields.io/github/last-commit/horans/json-locale-tool) |
 
 <https://github.com/horans>
